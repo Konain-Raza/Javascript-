@@ -16,4 +16,4 @@ alert(`You have visited this site ${noOfTimesVisitedPage}`)
 let visitorName = "Konain";
 let productTitle = "Tshirt(s)";
 let quantity = 4;
-document.write(`<br><b>${visitorName}</b> ordered <b>${quantity} ${productTitle}}</b> on XYZ Clothing store.`)
+document.write(`<br><b>${visitorName}</b> ordered <b>${quantity} ${productTitle}</b> on XYZ Clothing store.`)
