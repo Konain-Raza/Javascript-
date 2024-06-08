@@ -7,9 +7,13 @@
 //}
 
 const trainArrivalTimings = { //created object
-    train_1: 12,
-    train_2: 1,
-    train_3: 13,
+    train_1: 12,    train_2: 1,
+train_3: 13,
+
+
+
+
+
 }
 
 function markAttendance (trainName){ //created function def
