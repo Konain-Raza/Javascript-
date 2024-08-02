@@ -31,6 +31,9 @@ You can retrieve data from Local Storage using the `getItem` method.
 ```javascript
 let value = localStorage.getItem('key');
 console.log(value); // Output: Value corresponding to the key in Local Storage
+```Sure, here's how you can modify the README to include `localStorage.clear()` for deleting all key-value pairs:
+
+---
 ```
 ## Removing Items 🗑️
 
@@ -39,7 +42,14 @@ To remove an item from Local Storage, you can use the `removeItem` method.
 ```javascript
 localStorage.removeItem('key');
 ```
-## Example 📝
+
+To clear all items from Local Storage, you can use the `clear` method.
+
+```javascript
+localStorage.clear();
+```
+
+### Example 📝
 
 Here's a quick example demonstrating how to use Local Storage:
 
@@ -51,8 +61,14 @@ localStorage.setItem('username', 'John');
 let username = localStorage.getItem('username');
 console.log('Username:', username);
 
-// Removing data from Local Storage
+// Removing a specific item from Local Storage
 localStorage.removeItem('username');
+
+// Setting another item in Local Storage
+localStorage.setItem('age', '30');
+
+// Clearing all items from Local Storage
+localStorage.clear();
 ```
 ### Practice Question 📝
 

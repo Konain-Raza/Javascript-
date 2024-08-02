@@ -11,6 +11,7 @@ JavaScript objects are collections of key-value pairs, where the keys are string
 - [Deleting Properties](#deleting-properties-🗑️)
 - [Methods](#methods-🔄)
 - [Iterating Over Objects](#iterating-over-objects-🔄)
+- [Object Destructuring](#Object-Destructuring-🔄)
 - [Practice Question](#practice-question-📝)
 
 ## Introduction 📖
@@ -81,6 +82,24 @@ console.log(key + ': ' + person[key]);
 Object.keys(person).forEach(key => console.log(key + ': ' + person[key])); 
 Object.values(person).forEach(value => console.log(value)); 
 Object.entries(person).forEach(([key, value]) => console.log(key + ': ' + value));
+```
+
+## Object Destructuring 🔎
+
+Object destructuring allows you to extract properties from an object and assign them to variables.
+
+```javascript
+const { name, age } = person;
+console.log(name); // 'Jane'
+console.log(age); // 30
+```
+
+You can also assign new variable names while destructuring.
+
+```javascript
+const { name: personName, age: personAge } = person;
+console.log(personName); // 'Jane'
+console.log(personAge); // 30
 ```
 ## Practice Question 📝
 
