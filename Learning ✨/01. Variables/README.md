@@ -14,7 +14,7 @@
 
 ## Introduction ✨
 
-In JavaScript, variables are containers used to store data. These variables can hold different types of data, such as numbers, strings, objects, and more. You declare a variable using the var, let, or const keywords, depending on the scope and mutability required.
+In JavaScript, variables are containers used to store data. These variables can hold different types of data, such as numbers, strings, objects, and more. You declare a variable using the var, let, or const keywords, depending on the scope and mutability required.In simple terms variables are magic boxes or comtainers
 
 ## Variable Declarations 📝
 
